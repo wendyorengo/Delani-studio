@@ -28,7 +28,58 @@ p{
   /* padding-top:20%; */
   color: white;
   padding-top: 10%;
+  font-weight: bolder;
 }
 .what{
   text-align: center;
+}
+.overlay{
+  color:rgba(0,0,0,0.5);
+  /* height: 40vh; */
+} 
+.p-show{
+  display:none;
+}
+.row{
+  margin-top:30px;
+  margin-left: 4%;
+}
+.portfolio h1{
+  text-align: center;
+}
+#contacts{
+  background-image:url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
+  background-size: cover;
+  height: 50vh;
+  padding-bottom: 20%;
+}
+#contacts h1{
+  text-align: center;
+  color:white;
+}
+.name1{
+  background-color: transparent;
+  width: 30%;
+  border: 1px solid white;
+  
+}
+.name1::placeholder, .name2::placeholder, .text::placeholder{
+  color:white;
+  
+} 
+.name2{
+  background-color: transparent;
+  width:30%;
+  border: 1px solid white;
+  
+}
+.text{
+  background-color: transparent;
+  height:20vh;
+  width: 60%;
+  margin-top: 30px;
+  
+}
+.form{
+  margin-left: 30%;
 }
